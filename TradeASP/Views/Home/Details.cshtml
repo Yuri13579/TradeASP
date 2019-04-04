@@ -1,0 +1,20 @@
+﻿@model TradeASP.Models.Good
+@{
+    ViewBag.Title = Model.name;
+}
+<h2>товар @Model.name</h2>
+<div>
+    <dl class="dl-horizontal">
+        <dt>Цена</dt>
+        <dd>@Model.price</dd>
+
+        <dt>Доставка</dt>
+        <dd>@Model.delivery</dd>
+
+        <dt>Описание</dt>
+        <dd>@Model.description</dd>
+
+
+    </dl>
+</div>
+
